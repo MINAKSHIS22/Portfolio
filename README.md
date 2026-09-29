@@ -112,49 +112,28 @@ You can preview and test this portfolio locally in any of the following ways:
 
 ---
 
-## 📤 Pushing the Project Using Git
+## 🌐 Live Website & Repository
+- **Live Website**: [https://minakshis22.github.io/Portfolio/](https://minakshis22.github.io/Portfolio/)
+- **GitHub Repository**: [https://github.com/MINAKSHIS22/Portfolio](https://github.com/MINAKSHIS22/Portfolio)
+- **Current Version**: `v1.0.0`
 
-Open PowerShell or Command Prompt inside the `portfolio` directory and run:
+---
+
+## 📤 Pushing Changes to GitHub
+
+Whenever you make updates to your portfolio code or assets:
 
 ```bash
-# 1. Initialize local Git repository
-git init
-
-# 2. Stage all project files
+# 1. Stage changes
 git add .
 
-# 3. Create your first commit
-git commit -m "Initial portfolio website for Minakshi Sahoo"
+# 2. Commit changes
+git commit -m "Update portfolio content"
 
-# 4. Set the main branch
-git branch -M main
-
-# 5. Connect to your GitHub repository
-git remote add origin https://github.com/MINAKSHIS22/MINAKSHIS22.github.io.git
-
-# 6. Push your code to GitHub
-git push -u origin main
+# 3. Push to GitHub
+git push origin main
 ```
-
----
-
-## 🌐 Enabling GitHub Pages
-
-1. Open your repository at `https://github.com/MINAKSHIS22/MINAKSHIS22.github.io`.
-2. Click the **Settings** tab &rarr; select **Pages** from the left sidebar.
-3. Under **"Build and deployment"**:
-   - **Source**: Select **Deploy from a branch**.
-   - **Branch**: Select **`main`** and leave folder as **`/ (root)`**.
-4. Click **Save**.
-5. Wait 1 to 2 minutes for the site to build.
-
----
-
-## 🔗 Expected Live URL
-Your live website will be available at:
-```
-https://minakshis22.github.io/
-```
+GitHub Pages will automatically build and publish your latest commit in ~30–60 seconds!
 
 ---
 
